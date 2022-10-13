@@ -18,6 +18,8 @@ if len(email)>=6:
                         d=1
                 if k==1 or j==1 or d==1:
                     print('Wrong email address')
+                else:
+                    print('Right email address')
             else:
                 print('Wrong email address because . is not placed correctly')
         elif email.count('@')>1:
